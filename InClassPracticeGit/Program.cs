@@ -10,6 +10,16 @@ namespace InClassPracticeGit
     {
         static void Main(string[] args)
         {
+            PrintToScreen();
+        }
+
+        //make custom method
+        //setting the access modifier to public
+
+        public static void PrintToScreen()
+        {
+            Console.Write("Hello World");
+            Console.ReadLine();
         }
     }
 }
